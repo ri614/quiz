@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="styles.css" />
+<script src="script.js"></script>
+</head>
+<body>
+<div class="quizzes-container">
+  <h1>東広島クイズ  </h1>
+  <div class="quiz-container">
+    <h2>第1問</h2>
+    <div>
+      <p>東広島の人口は？</p>
+    </div>
+    <form id="quiz-1">
+      <input name="answer" type="radio" value="a">16万人</input>
+      <input name="answer" type="radio" value="b">19万人</input>
+      <input name="answer" type="radio" value="c">23万人</input>
+    </form>
+    <button class="btn" type="button" onclick="answerQuiz1();">答える</button>
+  </div>
+  <div class="quiz-container">
+    <h2>第2問</h2>
+    <div>
+        <p>東広島の中で2番目に人口が多いのは？</p>
+    </div>
+    <form id="quiz-2">
+      <input name="answer" type="radio" value="a">志和町</input>
+      <input  name="answer" type="radio" value="b">高屋町</input>
+      <input name="answer" type="radio" value="c">八本松町</input>
+    </form>
+    <button class="btn" type="button" onclick="answerQuiz2();">答える</button>
+  </div>
+  <div class="quiz-container">
+    <h2>第3問</h2>
+    <div>
+      <p>東広島市に拠点を持つ酒造会社の数は？</p>
+    </div>
+    <form id="quiz-3">
+      <input name="answer" type="radio" value="a">5社</input>
+      <input name="answer" type="radio" value="b">7社</input>
+      <input name="answer" type="radio" value="c">10社</input>
+    </form>
+    <button class="btn" type="button" onclick="answerQuiz3();">答える</button>  
+  </div>
+  <div id="score-container">
+    <p id="score-message"></p>
+  </div>
+  <button class="btn-score" type="button" onclick="showScore();">あなたの東広島市愛を確認する</button>
+</div>
+</body>
